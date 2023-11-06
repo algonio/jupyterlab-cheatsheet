@@ -8,6 +8,9 @@
 ### Install new kernel
 * `conda activate py36`
 * `python -m ipykernel install --name py36`
+  * install kernel into shared location
+*  `python -m ipykernel install --name py36 --user`
+  * install kernel into user location
 * `conda deactivate`
 
 ### Uninstal kernelL
